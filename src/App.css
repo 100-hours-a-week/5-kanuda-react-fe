@@ -1,4 +1,9 @@
 .App {
+
+}
+body {
+  display: flex;
+  background-color: #F4F5F7;
 }
 
 .App-logo {
