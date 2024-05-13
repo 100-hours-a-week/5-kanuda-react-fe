@@ -6,6 +6,9 @@ import SignInPage from './pages/SignInPage';
 import ProfileEditPage from './pages/ProfileEditPage';
 import PasswordEditPage from './pages/PasswordEditPage';
 import BoardPage from './pages/BoardPage';
+import PostDetailPage from './pages/PostDetailPage';
+import PostWritePage from './pages/PostWritePage';
+import PostEditPage from './pages/PostEditPage';
 
 function App() {
   return (
