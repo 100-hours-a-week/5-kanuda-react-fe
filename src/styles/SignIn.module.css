@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F7;
+}
+.displayNone {
+    display: none;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.19px;
+}
+.text {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17.9px;
+}
+.helper {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #FF0000;
+}
+.body input {
+    width: 355px;
+    height: 33px;
+}
+#prev-btn {
+    visibility: visible;
+}
+.profileDefault {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    text-align: center;
+    line-height: 149px;
+}
+.profileImg {
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    display: none;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signinBtn {
+    width: 355px;
+    height: 33px;
+    border-radius: 4px;
+    color: white;
+    border-width: 0;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnInactive {
+    background-color: #ACA0EB;}
+.btnActive {
+    background-color: #7F6AEE;
+}
+.logIn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.71px;
+    text-align: center;
+}
