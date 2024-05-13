@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styles from '../styles/Navbar.module.css';
 import backButton from '../image/backBtn.svg';
 import profileImg from '../image/profile.jpeg';
