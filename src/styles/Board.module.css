@@ -67,3 +67,8 @@ img {
     font-size: 15px;
     line-height: 19.5px;
 }
+.writerPic {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}

@@ -23,7 +23,7 @@ function BoardPage() {
                         </div>
                         <hr />
                         <div className={styles.postWriter}>
-                            <img src={profileImg} />
+                            <img src={profileImg} className={styles.writerPic} />
                             <p className={styles.writerName}>더미 작성자1</p>
                         </div>
                     </article>
