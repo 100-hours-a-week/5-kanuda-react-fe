@@ -19,6 +19,9 @@ function App() {
           <Route path='/profileEdit' element={<ProfileEditPage />}></Route>
           <Route path='/passwordEdit' element={<PasswordEditPage />}></Route>
           <Route path='/board' element={<BoardPage />}></Route>
+          <Route path='/postDetail' element={<PostDetailPage />}></Route>
+          <Route path='/postWrite' element={<PostWritePage />}></Route>
+          <Route path='/postEdit' element={<PostEditPage />}></Route>
           <Route></Route>
         </Routes>
       </div>
