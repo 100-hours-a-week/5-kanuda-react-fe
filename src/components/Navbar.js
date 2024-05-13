@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import styles from '../styles/Navbar.module.css';
 import backButton from '../image/backBtn.svg';
 import profileImg from '../image/profile.jpeg';
@@ -23,9 +23,10 @@ function Navbar() {
                     <img onClick={toggleDropdown} src={profileImg} className={styles.profileImage}></img>
                     {showDropdown && (
                         <div className={styles.dropDown}>
-                            <button onClick={() => console.log('회원정보 수정')} className={styles.dropDownBox}>회원정보 수정</button>
-                            <button onClick={() => console.log('비밀번호 수정')} className={styles.dropDownBox}>비밀번호 수정</button>
-                            <button onClick={() => console.log('로그아웃')} className={styles.dropDownBox}>로그아웃</button>
+                            <button onClick={() => navigate('/profileEdit')} className={styles.dropDownBox}>회원정보 수정</button>
+                            <button onClick={() => navigate('/passwordEdit')} className={styles.dropDownBox}>비밀번호 수정</button>
+                            {/* 로그아웃 처리 해줘야함 */}
+                            <button onClick={() => navigate('/login')} className={styles.dropDownBox}>로그아웃</button>
                         </div>
                     )}
                 </div>
