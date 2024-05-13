@@ -1,0 +1,135 @@
+.displayNone {
+    display: none;
+}
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+}
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.2px;
+}
+.postHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.writerImg {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.writerInfo {
+    display: flex;
+    flex-direction: row;
+}
+.writerName {
+    margin-left: 10px;
+}
+.writeTime {
+    margin-left: 20px;
+}
+.btn {
+    width: 50px;
+    height: 27px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #ACA0EB;
+    background-color: rgba(0,0,0,0);
+}
+.inbodyHr{
+    width: 592px;
+    border-width: 1px;
+    background-color: rgba(0,0,0,0.16);
+}
+.postBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.postImg {
+    width: 544px;
+}
+.postContent {
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21.15px;
+}
+.postInfo {
+    display: flex;
+    flex-direction: row;
+}
+.info {
+    width: 116px;
+    height: 77px;
+    border-radius: 16px;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin: 5px;
+}
+.commentWrite {
+    display: flex;
+    flex-direction: column;
+    width: 592px;
+    height: 169px;
+    background-color: white;
+    border-radius: 20px;
+}
+input {
+    width: 572px;
+    height: 90px;
+    border-width: 0;
+    padding: 10px;
+}
+.commentBtn {
+    width: 138px;
+    height: 39px;
+    border-radius: 16px;
+    border-width: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.btnArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.commentList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 572px;
+}
+.comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.commentInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cmtWriterInfo {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+.btnInactive {
+    background-color: #ACA0EB;
+}
+.btnActive {
+    background-color: #7F6AEE;
+}

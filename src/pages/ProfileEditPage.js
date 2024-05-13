@@ -14,7 +14,7 @@ function ProfileEditPage() {
                 </div>
                 <div className={styles.center}>
                     <div className={styles.profileImg}>
-                        <img src={profileImg} />
+                        <img src={profileImg} className={styles.img}/>
                         <div>
                             <button className={styles.changeBtn}>변경</button>
                         </div>
